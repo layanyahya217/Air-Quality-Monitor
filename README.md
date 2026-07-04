@@ -1,22 +1,47 @@
-# Air Quality Monitoring System
+# Smart Air Quality & Temperature Monitoring System
 
 ## Overview
-This project is an Arduino-based system designed to monitor indoor air quality using sensors.
+
+This project is an Arduino-based monitoring system that measures both indoor air quality and temperature in real time.
+
+The system uses gas and temperature sensors to detect unsafe environmental conditions and alerts the user using LEDs and a buzzer.
+
+---
 
 ## Features
-- Monitor indoor air quality
-- Real-time sensor readings
-- LCD display
-- Alert when air quality decreases
 
-## Technologies
-- Arduino
-- Tinkercad
-- Sensors
-- LCD Display
+- 🌡️ Temperature Monitoring (TMP36)
+- 🌫️ Air Quality Monitoring (MQ-2 Gas Sensor)
+- 🔴 Visual Alerts using LEDs
+- 🔊 Audible Alerts using Buzzer
+- 💻 Real-time monitoring through Serial Monitor
 
-## Purpose
-This project was developed to improve awareness of indoor air quality and encourage healthier environments.
+---
+
+## Components
+
+- Arduino Uno
+- MQ-2 Gas Sensor
+- TMP36 Temperature Sensor
+- LEDs
+- Buzzer
+- Breadboard
+- Jumper Wires
+
+---
+
+## Programming Language
+
+- Arduino (C++)
+
+---
+
+## Project Goal
+
+To create a simple smart monitoring system that helps detect high temperature and dangerous gas levels in indoor environments.
+
+---
 
 ## Author
+
 Layan Ghazwani
